@@ -5,7 +5,7 @@
 [![Model](https://img.shields.io/badge/model-XGBoost-orange)](https://xgboost.readthedocs.io/)
 
 ## Project Overview
-This project involves a machine learning analysis of household food security status. It comprises a web application that predicts household food security scores based on socio-economic and demographic data. The model was developed using data collected from urban informal settlements in Nairobi, Kenya (2014).
+This project involves a machine learning analysis of household food security status. It includes a web application that predicts household food security scores based on socio-economic and demographic data. The model was developed using data collected from urban informal settlements in Nairobi, Kenya (2014).
 
 ## Table of Contents
 - [Application Overview](#application-overview)
