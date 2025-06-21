@@ -5,7 +5,7 @@
 [![Model](https://img.shields.io/badge/model-XGBoost-orange)](https://xgboost.readthedocs.io/)
 
 ## Project Overview
-This project involves a machine learning analysis of household food security status. It includes a web application that predicts household food security scores based on socio-economic and demographic data. The model was developed using data collected from urban informal settlements in Nairobi, Kenya (2014).
+This project carries out a machine learning analysis of household food security status. It includes a web application that predicts household food security scores based on socio-economic and demographic data. The model was developed using data collected from urban informal settlements in Nairobi, Kenya (2014).
 
 ## Table of Contents
 - [Application Overview](#application-overview)
@@ -54,6 +54,19 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 - Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+- Navigate to `pipeline/` and run `train_model.py` to train the XGBoost classifier:
+```
+cd pipeline
+python train_model.py
+```
+**Warning:** This may take several minutes. Go grab a coffee and inspect the console output while it happens!
+
+- Once model training is done, ensure `model.pkl` and `scaler.pkl` files are generated. This prevents the need for retraining the model if adjustments are not being made.
+- You may return to the project's root directory once this process ends:
+```
+cd ..
 ```
 
 ## Basic Usage
