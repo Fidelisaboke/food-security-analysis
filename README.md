@@ -27,6 +27,7 @@ It was developed using:
 - SMOTE for handling class imbalance
 - GridSearchCV for model optimization
 - Streamlit for web interface
+Further explanation on the reason why XGBoost was used, and analysis of the data can be found in `notebooks/food_security_status.ipynb`.
 
 ### How It Works
 - Users provide demographic data via the UI
